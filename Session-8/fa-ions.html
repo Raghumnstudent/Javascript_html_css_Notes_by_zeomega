@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icons</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Fa-Ions -->
+    <div class="container">
+        <i class="fas fa-angle-left" style="font-size:20px"></i>
+        <i class="fas fa-at" style="font-size:24px"></i>
+        <i class="fas fa-battery-half" style="font-size:28px"></i>
+        <i class="far fa-bell" style="font-size:36px"></i>
+        <i class="fas fa-anchor" style="font-size:48px"></i>
+    </div>
+
+    <!-- Popover means when you place mouse on, it gives infomation -->
+    <div>
+        <a href="#" data-toggle="popover" 
+       title="Popover Header" data-content="Some 
+       content...">Toggle popover</a>
+    </div>
+    <script>
+       $(document).ready(function(){
+        $('[data-toggle="popover"]').popover(); 
+       });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

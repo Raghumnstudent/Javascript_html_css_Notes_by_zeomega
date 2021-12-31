@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+
+    <!-- tr is table row , th is table heading, td is table description -->
+    <!--table is created but  We need to style to see the table -->
+
+    <!-- we created the table, then adding the data to table by selecting row -->
+    <h2>Creating Table for displaying working hourse of company</h2>
+    <table style="width:100px;height: 100px;border:1px solid rgb(216, 10, 10)">
+        <tr>
+            <th style="width: 100px;border:1px solid #ddd;">Monday</th>
+            <th style="width: 100px;border:1px solid #ddd;">Tuesday</th>
+            <th style="width: 100px;border:1px solid #ddd;">Wednesday</th>
+            <th style="width: 100px;border:1px solid #ddd;">Thursday</th>
+            <th style="width: 100px;border:1px solid #ddd;">Friday</th>
+            <th style="width: 100px;border:1px solid #ddd;">Saturday</th>
+            <th style="width: 100px;border:1px solid #ddd;">Sunday</th> 
+        </tr>
+        <tr>
+            <td style="width: 100px; text-align: center; border:1px solid #ddd">9 to 5</td>
+            <td style="width: 100px; text-align: center; border:1px solid #ddd">9 to 5</td>
+            <td style="width: 100px; text-align: center; border:1px solid #ddd">9 to 5</td>
+            <td style="width: 100px; text-align: center; border:1px solid #ddd">9 to 5</td>
+            <td style="width: 100px; text-align: center; border:1px solid #ddd">9 to 5</td>
+            <td style="width: 100px; text-align: center; border:1px solid #ddd" colspan="2">Holiday</td>
+        </tr>
+    </table><br><br><br>
+
+    <!-- Table tag is divided into two tags 
+        thead tag and tbody tag 
+        thead tag is used to add Heading to table using th tag inside thead tag
+        tbody tag is used to add content of table using tr and td td tag 
+        tr tag is a table row tag is used to select the row first then we write text into row using td tag-->
+    <table style="width: 200px;border:solid 1px #ddd;">
+        <thead>
+            <th style="width: 100px;border:solid 1px #ddd;">Days</th>
+            <th style="width: 100px;border:solid 1px #ddd;">Working Hours</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="width: 100px;border:solid 1px #ddd;"> Monday </td> 
+                <td style="width: 100px;border:solid 1px #ddd;"> 9am to 5pm </td>
+            </tr>
+            <tr>
+                <td style="width: 100px;border:solid 1px #ddd;"> Tuseday </td> 
+                <td style="width: 100px;border:solid 1px #ddd;"> 9am to 5pm </td>
+            </tr>
+            <tr>
+                <td style="width: 100px;border:solid 1px #ddd;"> wednesday </td> 
+                <td style="width: 100px;border:solid 1px #ddd;"> 9am to 5pm </td>
+            </tr>
+            <tr>
+                <td style="width: 100px;border:solid 1px #ddd;"> Thursday </td> 
+                <td style="width: 100px;border:solid 1px #ddd;"> 9am to 5pm </td>
+            </tr>
+            <tr>
+                <td style="width: 100px;border:solid 1px #ddd;"> Friday </td> 
+                <td style="width: 100px;border:solid 1px #ddd;"> 9am to 5pm </td>
+            </tr>
+            <tr>
+                <td style="width: 100px;border:solid 1px #ddd;"> Saturday</td> 
+                <td style="width: 100px;border:solid 1px #ddd;"> Holiday </td>
+            </tr>
+            <tr>
+                <td style="width: 100px;border:solid 1px #ddd;"> Sunday</td> 
+                <td style="width: 100px;border:solid 1px #ddd;"> Holiday </td>
+            </tr> 
+        </tbody>
+    </table>
+</body>
+</html>

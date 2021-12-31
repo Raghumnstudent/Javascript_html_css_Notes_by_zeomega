@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+</head>
+<body>
+    <form action = '#' id = 'Myform' name='Raghuform' onsubmit=" return validation()">
+        <div>
+            <label for='name'>Name</label>
+            <input type='text'name='name'id='name'>
+            <spam id='namemsg' style='color:red'></spam>
+        </div>
+        <div>
+            <label for='email'>Email</label>
+            <input type='email'name='email' id='email'>
+            <spam id='emailmsg' style='color:red'></spam>
+        </div>
+        <div>
+            <label for='pass'>Password</label>
+            <input type='password'name='pass' id='pass'>
+            <spam id='passmsg' style='color:red'></spam>
+        </div>
+        <div>
+            <input type='submit' name='submit' value='submit'>
+        </div>
+        <div>
+            <p style='color:red' id='msg'></p>
+        </div>
+
+   </form>
+   <script src = 'FProj2.js'></script>
+</body>
+</html>

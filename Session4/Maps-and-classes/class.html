@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Employee{
+            constructor(id,name){
+                this.id=id
+                this.name = name
+        }
+        displayEmployeeDetails(){
+            console.log(this.id +" "+this.name)
+        }
+    }
+    var emp1 = new Employee(101,'Raghu')
+    var emp2 = new Employee(102,'Raju')
+
+    emp1.displayEmployeeDetails();
+    emp2.displayEmployeeDetails();
+
+    </script>
+</body>
+</html>

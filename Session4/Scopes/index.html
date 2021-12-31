@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function test(){
+            if(true){
+                var a = 8378
+                let b = 2243
+                const c = 45
+                console.log("Block variable "+ b)
+                console.log("Block variable "+ c)  //we can't assign a other value to const variable
+            }
+            console.log("Function variable "+ a)
+            // console.log("Block variable "+ b) this gives error b is not defined , if you use let that variable is limited to within block only
+            // console.log("Block variable "+ c)
+        }
+        test()
+    </script>
+</body>
+</html>

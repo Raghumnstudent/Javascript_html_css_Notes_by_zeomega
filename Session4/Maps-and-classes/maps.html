@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var map1 = new Map()
+        map1.set(101,'Raghu')
+        map1.set(102,'Raju')
+        map1.set(103,'Naga')
+        console.log(map1)
+        console.log(map1.size)
+        console.log('map has 103 '+map1.has(103))
+        console.log('get value of 103 '+ map1.get(103))
+        console.log('delete 102 '+map1.delete(102))
+        console.log(map1.size)
+
+        map1.clear();
+        console.log("After clear "+ map1.size)
+    </script>
+</body>
+</html>

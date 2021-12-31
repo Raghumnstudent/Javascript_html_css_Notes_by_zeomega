@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+    //we can't set default value for first parameter put that parameter into last as shown below in second function
+        function intrest(principle,years=4,rate=18){
+            return principle*years*rate/100
+        }
+        console.log(intrest(5000,3,9))
+        console.log(intrest(3000))
+
+        function newintrest(years,rate=10,principle=10000){
+            return principle*years*rate/100
+        }
+        console.log(newintrest(3))
+
+    </script>
+</body>
+</html>

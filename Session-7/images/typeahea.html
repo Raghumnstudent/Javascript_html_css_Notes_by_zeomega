@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.7/css/bootstrap.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/5.6.0/jquery.min.js"></script>
+</head>
+<body>
+    
+    <!-- Typeahead -->
+    <div class="container">
+        <form>
+            <div class="input-group">
+                <input type="text" class="form-control typehead" name="query" id="query"
+                placeholder="type here" data-provide="typehead" autocomplete="off"/>
+                <button type="submit" class="btn btn-primary">submit</button>
+            </div>
+        </form>
+    </div>
+    <script>
+        $(document).ready(function(){
+            var data=["python","java","javascript","html","html5"];
+            $("#query").typeahead({source:data})
+        })
+    </script>
+</body>
+</html>

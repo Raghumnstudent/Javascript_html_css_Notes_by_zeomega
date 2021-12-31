@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var name = "Raghu M N" //string
+        //charAt
+        console.log('My string '+name)
+        console.log('caharacter at index 2 '+name.charAt(2))
+        console.log('check it is ending with M '+name.endsWith('N'))
+        console.log('check it is ending with N '+name.endsWith('M'))
+        console.log('checking sub string is there '+name.includes('Raghu'))
+        console.log('use slice '+name.slice(1,4)) //it extract and create new string
+        console.log('use split '+name.split(' '))
+        console.log('use substring '+name.substring(1,5))  //it only extract characters from string
+        console.log('use substring '+name.substring(1))  //it does not need end value
+        console.log('use Tolower '+name.toLowerCase('RAGHU'))
+        console.log('use Toupper '+name.toUpperCase('raghu'))
+        console.log('Length of my string '+name.length)
+        for(let i=0;i<name.length;i++){
+            console.log(name[i])
+        }
+    </script>
+</body>
+</html>
